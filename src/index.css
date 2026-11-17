@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-cream: #fcf9f4;
+  --color-sand: #f4ebd9;
+  --color-sand-border: #e8e0d2;
+  --color-forest: #1b4d3e;
+  --color-forest-deep: #003629;
+  --color-sage: #4e7c59;
+  --color-terracotta: #d97736;
+  --color-terracotta-dark: #b85d22;
+  --color-ink: #13241c;
+  --color-ink-muted: #404945;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #fcf9f4;
+    color: #13241c;
+    scroll-padding-top: 84px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+.botanical-shadow {
+  box-shadow: 0 4px 20px -2px rgba(27, 77, 62, 0.08);
+}
+
+.botanical-shadow-dock {
+  box-shadow: 0 -4px 24px 0 rgba(27, 77, 62, 0.12);
+}
+
+.botanical-shadow-modal {
+  box-shadow: 0 16px 40px -8px rgba(19, 36, 28, 0.22);
+}

@@ -1,0 +1,216 @@
+---
+name: Lereng Asri Rural Tourism
+colors:
+  surface: '#fcf9f4'
+  surface-dim: '#dcdad5'
+  surface-bright: '#fcf9f4'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f6f3ee'
+  surface-container: '#f0ede9'
+  surface-container-high: '#ebe8e3'
+  surface-container-highest: '#e5e2dd'
+  on-surface: '#1c1c19'
+  on-surface-variant: '#404945'
+  inverse-surface: '#31302d'
+  inverse-on-surface: '#f3f0eb'
+  outline: '#707974'
+  outline-variant: '#c0c9c3'
+  surface-tint: '#376757'
+  primary: '#003629'
+  on-primary: '#ffffff'
+  primary-container: '#1b4d3e'
+  on-primary-container: '#8abda9'
+  inverse-primary: '#9ed1bd'
+  secondary: '#3b6847'
+  on-secondary: '#ffffff'
+  secondary-container: '#bcefc4'
+  on-secondary-container: '#416e4c'
+  tertiary: '#4f2100'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#723200'
+  on-tertiary-container: '#ff9857'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#baeed9'
+  primary-fixed-dim: '#9ed1bd'
+  on-primary-fixed: '#002117'
+  on-primary-fixed-variant: '#1d4f40'
+  secondary-fixed: '#bcefc4'
+  secondary-fixed-dim: '#a1d2a9'
+  on-secondary-fixed: '#00210c'
+  on-secondary-fixed-variant: '#225030'
+  tertiary-fixed: '#ffdbc9'
+  tertiary-fixed-dim: '#ffb68c'
+  on-tertiary-fixed: '#321200'
+  on-tertiary-fixed-variant: '#753400'
+  background: '#fcf9f4'
+  on-background: '#1c1c19'
+  surface-variant: '#e5e2dd'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 30px
+    fontWeight: '800'
+    lineHeight: 38px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-tablet: 2rem
+  margin-desktop: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The design system embodies the serene, organic vitality of highlands ecotourism, paired with the warmth of traditional rural hospitality. It is targeted at eco-conscious domestic and international travelers, families, and outdoor enthusiasts seeking an authentic escape into nature. The aesthetic leans into a tactile, modern organic minimalism—avoiding cold corporate sterility in favor of grounded, welcoming warmth. 
+
+Visual interfaces prioritize clarity, generous touch targets, immersive photography, and effortless thumb-driven navigation. The visual tension balances the deep, calm tranquility of mountain pinewoods and verdant tea plantations with sunny, energetic terracotta accents representing fertile volcanic soil and local artisan crafts. The overarching feeling should be tranquil, invigorating, and unpretentiously welcoming.
+
+## Colors
+
+The palette draws directly from the highland environment of Desa Wisata Lereng Asri:
+- **Primary (`#1B4D3E` - Deep Forest Green):** The core brand anchor, conveying lush pine canopies, permanence, and sustainability. Used for critical CTAs, dominant brand headers, active navigation states, and key navigational surfaces.
+- **Secondary (`#4E7C59` - Highland Sage):** A gentler vegetative green for secondary elements, badges, status indicators, subtle card accents, and category tags.
+- **Tertiary (`#D97736` - Terracotta Sun):** An energizing earth-toned warm accent that provides high contrast against the greens. Reserved for promotion banners, high-priority booking callouts, pricing highlights, and interactive focal points.
+- **Neutral Light Base (`#FAF7F2` - Warm Cream Linen):** Soft off-white replacement for cold digital stark white. Used as the global canvas background to preserve paper-like warmth and reduce outdoor glare.
+- **Neutral Surface / Card Base (`#FFFFFF` & `#F4EBD9` - Sand Tint):** Elevated content surfaces use pristine white for high-contrast legibility, with `#F4EBD9` serving as a supportive tonal wash for chips, search containers, and highlighted info boxes.
+- **Text & Contrast:** Primary text is set in deeply pigmented deep charcoal-forest (`#13241C`), ensuring strict WCAG AAA contrast against cream and white grounds.
+
+## Typography
+
+The design system relies on **Plus Jakarta Sans** across all typographic applications. Its open counters, humanistic geometry, and soft modern terminals evoke both approachable warmth and supreme legibility across varied outdoor lighting conditions.
+
+- **Headlines:** Set with tightened tracking (`-0.01em` to `-0.02em`) and bold weights (`700` and `800`) to provide authoritative, inviting editorial hierarchy.
+- **Body:** Rendered in `body-md` (16px) as the default reading scale, using generous line heights (`1.5` ratio) to support readability while moving or glancing at a phone outdoors.
+- **Labels & Micro-copy:** Rendered with weight `600` for immediate button action clarity, badge legibility, and price tags.
+
+## Layout & Spacing
+
+A mobile-first fluid grid anchors the system, seamlessly scaling to large viewpoints:
+- **Mobile (< 768px):** 4-column fluid layout with `1rem` (16px) margins and `1rem` gutters. Horizontal scrolling carousels break through standard container margins with bleed edges to maximize screen real estate for destination photography.
+- **Tablet (768px - 1023px):** 8-column fluid layout with `2rem` (32px) margins and `1.25rem` gutters.
+- **Desktop (1024px+):** 12-column layout capped at a maximum width of `1200px` centered, with `1.5rem` gutters and minimum `3rem` margins.
+
+Touch targets across all layouts are strictly constrained to a **minimum height and width of 48px**, offering friction-free thumb interaction on uneven ground or in motion.
+
+## Elevation & Depth
+
+This design system eschews synthetic, heavy drop shadows in favor of a tactile, nature-tinted atmospheric elevation model:
+- **Tonal Layering:** Visual distinction relies primarily on surface contrasting: pure `#FFFFFF` cards sit elevated over the warm `#FAF7F2` canvas.
+- **Botanical Ambient Shadows:** Where elevation is necessary (floating bottom navigation bars, interactive destination cards, and modal sheets), soft, deeply diffused shadows are used with a forest-green tint:
+  - *Card Base Elevation:* `0 4px 20px -2px rgba(27, 77, 62, 0.08)`
+  - *Floating Bars & Sticky Controls:* `0 -4px 24px 0 rgba(27, 77, 62, 0.12)`
+  - *Modal & Overlay Sheets:* `0 16px 40px -8px rgba(19, 36, 28, 0.22)`
+- **Hairline Ghost Borders:** Subdued structural separation uses 1px borders colored in `rgba(27, 77, 62, 0.08)` or `#E8E0D2` to hold crisp shape definition without harshness.
+
+## Shapes
+
+The shape system adopts a friendly, organic roundedness (Level 2). Straight, sharp angles are avoided to mirror the soft contours of hills and leaves:
+- **Standard UI Elements (Buttons, Inputs, Small Badges):** `0.5rem` (8px) border radius.
+- **Cards & Content Panels (`rounded-lg`):** `1rem` (16px) border radius.
+- **Bottom Navigation Dock, Bottom Sheets & Modals (`rounded-xl`):** `1.5rem` (24px) border radius for comfortable hand-held ergonomics.
+- **Chips, Pills, & Floating Action Buttons:** Fully rounded pill radius (`9999px`).
+
+## Components
+
+### Buttons
+- **Primary Button:** Minimum height 48px (desktop and mobile), filled with Primary Forest Green (`#1B4D3E`), typography in bold cream/white, border-radius `0.5rem`. Provides immediate affirmative feedback with a subtle scale press effect (0.98).
+- **Secondary / Booking CTA Button:** Minimum height 48px, filled with Terracotta (`#D97736`), high-contrast white text, designed for instant package conversion and reservation triggers.
+- **Outline / Ghost Button:** Transparent background, 1.5px border in `#1B4D3E`, text in `#1B4D3E`.
+
+### Cards (Destinations & Tour Packages)
+- Built on pure white (`#FFFFFF`) surfaces with `1rem` radius and subtle botanical shadow.
+- Feature an aspect-ratio-bound hero image (16:10 or 4:3) with an inset status chip (e.g., "Ramah Anak", "Eco-Certified").
+- Bottom content area includes a clear visual hierarchy: Title (`headline-sm`), brief descriptive trail, transparent price callout in Terracotta (`#D97736`), and a 48px minimum touch CTA button or full-card click trigger.
+
+### Chips & Filter Pills
+- Fully rounded pills (`9999px`) with minimum height 36px (padded to 48px invisible touch bounds).
+- **Unselected:** Warm Sand (`#F4EBD9`) surface with Forest Green text (`#1B4D3E`).
+- **Selected:** Solid Forest Green (`#1B4D3E`) surface with White text and subtle spring checkmark animation.
+
+### Form Inputs & Date Pickers
+- Minimum height 52px for convenient thumb entry.
+- Surface in `#FFFFFF` framed by a 1px border of `#E8E0D2`. Focused state transitions to a 2px outline in Sage Green (`#4E7C59`) with no harsh browser rings.
+- Large, legible placeholder text in `#72847A`.
+
+### Checkboxes & Radios
+- Sized at 24px × 24px container with a 48px hit slop.
+- Rounded corners for checkboxes (`4px`) and complete circles for radios. Filled with `#1B4D3E` on selection with a crisp white interior glyph.
+
+### Navigation Architecture
+- **Mobile Bottom Navigation Dock:** Floating navigation bar with `1.5rem` top radius, background in high-opacity frosted cream (`rgba(250, 247, 242, 0.92)` with `backdrop-filter: blur(12px)`), featuring 4 primary destinations (Jelajah, Paket, Tiket, Profil).
+- **Desktop Navigation:** Sticky top header with solid Forest Green primary branding, clear horizontal menu links, and an accent Terracotta "Pesan Tiket" button.
